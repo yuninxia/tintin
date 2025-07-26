@@ -1,0 +1,6 @@
+[submodule "paper-source/tintin-kernel"]
+	path = paper-source/tintin-kernel
+	url = https://github.com/yuninxia/tintin-kernel.git
+[submodule "paper-source/tintin-user"]
+	path = paper-source/tintin-user
+	url = https://github.com/yuninxia/tintin-user.git

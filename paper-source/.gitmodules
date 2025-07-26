@@ -1,6 +1,0 @@
-[submodule "tintin-kernel"]
-	path = tintin-kernel
-	url = https://github.com/yuninxia/tintin-kernel.git
-[submodule "tintin-user"]
-	path = tintin-user
-	url = https://github.com/yuninxia/tintin-user.git

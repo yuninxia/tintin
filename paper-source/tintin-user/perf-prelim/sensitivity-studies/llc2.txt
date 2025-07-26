@@ -1,2 +1,0 @@
-  LLC-load-misses
-  LLC-store-misses

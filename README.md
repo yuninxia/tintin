@@ -2,6 +2,18 @@
 
 This repository contains documentation and resources for evaluating and understanding the Tintin system from the OSDI'25 paper.
 
+## 🚀 Getting Started
+
+To clone this repository with all submodules:
+```bash
+git clone --recursive https://github.com/yuninxia/tintin.git
+```
+
+If you already cloned without `--recursive`, initialize submodules with:
+```bash
+git submodule update --init --recursive
+```
+
 ## 📚 Documentation Structure
 
 1. **[paper.md](artifact-evaluation/docs/paper.md)** - The original Tintin OSDI'25 paper in markdown format
@@ -35,6 +47,21 @@ For running experiments:
 1. **First** read `shared-machine-guide.md` for safety
 2. Follow the safe alternatives before kernel experiments
 3. Use `navigation-guide.md` for build commands
+
+## 📁 Repository Structure
+
+```
+tintin/
+├── paper-source/                # Original implementation (git submodules)
+│   ├── tintin-kernel/          # Modified Linux kernel v5.15
+│   └── tintin-user/            # User-space tools and evaluation scripts
+└── artifact-evaluation/        # Documentation and guides
+    └── docs/
+        ├── paper.md            # OSDI'25 paper
+        ├── code-mapping.md     # Maps paper to code
+        ├── navigation-guide.md # Navigate the codebase
+        └── shared-machine-guide.md # Safety guide
+```
 
 ## ⚡ Quick Reference
 
